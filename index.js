@@ -6,8 +6,8 @@ var cubic2=Math.random();
 cubic2*=6;
 cubic2=Math.floor(cubic2)+1;
 
-document.querySelector(".img1").setAttribute("src","./images/dice"+cubic1+".png");
-document.querySelector(".img2").setAttribute("src","./images/dice"+cubic2+".png");
+document.querySelector(".img1").setAttribute("src","./images/dice"+cubic1+".PNG");
+document.querySelector(".img2").setAttribute("src","./images/dice"+cubic2+".PNG");
 
 var msg="it's a tie";
 if(cubic1>cubic2){
